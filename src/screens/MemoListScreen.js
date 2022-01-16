@@ -11,7 +11,7 @@ class MemoListScreen extends React.Component {
             <view style={styles.container}>
 
                 <MemoList />
-                <CircleButton>+</CircleButton>
+                <CircleButton name="plus" />
             </view>
 
         )
